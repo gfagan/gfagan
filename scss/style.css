@@ -1,0 +1,191 @@
+.text {
+  font-family: "Martel", serif;
+  color: #434a54;
+  font-size: 16px; }
+
+.font2 {
+  font-family: "Italiana", serif; }
+
+.text-quote {
+  font-family: "Martel", serif; }
+
+.title {
+  font-family: "Italianno", cursive; }
+
+.header {
+  font-family: "Italiana", serif;
+  font-size: 1.6rem; }
+
+body {
+  overflow-x: hidden;
+  font-family: "Martel", serif;
+  color: #434a54; }
+  body h1 {
+    font-family: "Italiana", serif; }
+  body h2 {
+    font-family: "Italiana", serif; }
+  body h3 {
+    font-family: "Italiana", serif; }
+  body h4 {
+    font-family: "Italiana", serif; }
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important; }
+.navbar .nav-item.active {
+  border-left: #444 3px solid; }
+.navbar .navbar-brand {
+  font-family: "Italianno", cursive;
+  font-size: 2rem;
+  color: #882eaa; }
+
+.image-header {
+  color: #882eaa;
+  font-family: "Italianno", cursive; }
+
+.image-header2 {
+  color: #fff;
+  font-family: "Italianno", cursive; }
+
+.image-text {
+  color: #882eaa;
+  font-family: "Italianno", cursive; }
+
+.image-text2 {
+  color: #fff;
+  font-family: "Martel", serif; }
+
+.carousel-item {
+  height: 45vh; }
+
+.carousel-image-1 {
+  background: linear-gradient(rgba(160, 116, 160, 0.3), rgba(160, 116, 160, 0.3)), url("../img/image4.jpg");
+  background-size: cover; }
+
+.carousel-image-2 {
+  background: linear-gradient(rgba(160, 116, 160, 0.3), rgba(160, 116, 160, 0.3)), url("../img/image14.jpg");
+  background-size: cover; }
+
+.carousel-image-3 {
+  background: linear-gradient(rgba(160, 116, 160, 0.3), rgba(160, 116, 160, 0.3)), url("../img/image11.jpg");
+  background-size: cover; }
+
+#home-services {
+  color: #441853; }
+
+#background-image {
+  position: relative;
+  min-height: 170px;
+  background: url("../img/confetti.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff; }
+  #background-image .fa-envelope-open {
+    color: #fff; }
+  #background-image .fa-envelope-open:hover {
+    color: #882eaa; }
+
+#home-quote {
+  background-color: #882eaa;
+  color: #fff;
+  -webkit-animation-name: colorChange;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 7s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: colorChange;
+  animation-duration: 7s;
+  animation-iteration-count: infinite; }
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); }
+
+#video-play {
+  position: relative;
+  min-height: 170px;
+  background: url("../img/confetti.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -100px;
+  text-align: center;
+  color: #fff; }
+  #video-play a {
+    color: #fff; }
+
+#page-header {
+  height: 45vh;
+  background: linear-gradient(rgba(160, 116, 160, 0.3), rgba(160, 116, 160, 0.3)), url("../img/image18.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px; }
+
+.about-img {
+  margin-top: -90px; }
+
+.credit {
+  font-size: 12px; }
+
+#faq .card {
+  border: #444; }
+#faq a {
+  color: #fff;
+  text-decoration: none; }
+#faq .card-body,
+#faq .card-header {
+  background: #333; }
+  #faq .card-body h1,
+  #faq .card-header h1 {
+    font-family: "Italiana", serif; }
+
+.bg-2 {
+  background: #882eaa; }
+
+#staff img {
+  margin-top: -50px; }
+#staff .card:hover {
+  background: #882eaa;
+  color: #fff; }
+#staff .fab {
+  color: #fff; }
+
+.radio-style {
+  color: #6c757d; }
+
+#main-footer {
+  background: #441853;
+  color: #fff; }
+
+@media (max-width: 780px) {
+  #servicesButton {
+    width: 100%;
+    display: block; }
+
+  #homeQuote {
+    order: 6; }
+
+  #page-header {
+    background: linear-gradient(rgba(160, 116, 160, 0.3), rgba(160, 116, 160, 0.3)), url("../img/mobile.jpg");
+    background-size: cover; } }
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes colorChange {
+  0% {
+    background-color: #882eaa; }
+  100% {
+    background-color: #441853; } }
+/* Standard syntax */
+@keyframes colorChange {
+  0% {
+    background-color: #882eaa; }
+  100% {
+    background-color: #441853; } }
+
+/*# sourceMappingURL=style.css.map */

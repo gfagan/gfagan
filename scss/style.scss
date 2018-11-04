@@ -1,0 +1,285 @@
+$white: #fff;
+$primary-color: #882eaa;
+$title-font: 'Italianno', cursive;
+$header-font: 'Italiana', serif;
+$body-font: 'Martel', serif;
+$secondary-color: #441853;
+
+.text {
+  font-family: $body-font;
+  color: #434a54;
+  font-size: 16px;
+}
+
+.font2 {
+  font-family: $header-font;
+}
+
+.text-quote {
+  font-family: $body-font;
+}
+
+.title {
+  font-family: $title-font;
+}
+
+.header {
+  font-family: $header-font;
+  font-size: 1.6rem;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: $body-font;
+  color: #434a54;
+  h1 {
+    font-family: $header-font;
+  }
+  h2 {
+    font-family: $header-font;
+  }
+  h3 {
+    font-family: $header-font;
+  }
+  h4 {
+    font-family: $header-font;
+  }
+}
+
+.navbar {
+  .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .nav-item.active {
+    border-left: #444 3px solid;
+  }
+
+  .navbar-brand {
+    font-family: $title-font;
+    font-size: 2rem;
+    color: $primary-color;
+  }
+}
+
+.image-header {
+  color: $primary-color;
+  font-family: $title-font;
+}
+
+.image-header2 {
+  color: $white;
+  font-family: $title-font;
+}
+
+.image-text {
+  color: $primary-color;
+  font-family: $title-font;
+}
+
+.image-text2 {
+  color: $white;
+  font-family: $body-font;
+}
+
+.carousel-item {
+  height: 45vh;
+}
+
+.carousel-image-1 {
+  background: linear-gradient(
+      rgba(160, 116, 160, 0.3),
+      rgba(160, 116, 160, 0.3)
+    ),
+    url('../img/image4.jpg');
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: linear-gradient(
+      rgba(160, 116, 160, 0.3),
+      rgba(160, 116, 160, 0.3)
+    ),
+    url('../img/image14.jpg');
+
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: linear-gradient(
+      rgba(160, 116, 160, 0.3),
+      rgba(160, 116, 160, 0.3)
+    ),
+    url('../img/image11.jpg');
+
+  background-size: cover;
+}
+
+#home-services {
+  color: $secondary-color;
+}
+
+#background-image {
+  position: relative;
+  min-height: 170px;
+  background: url('../img/confetti.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: $white;
+
+  .fa-envelope-open {
+    color: $white;
+  }
+
+  .fa-envelope-open:hover {
+    color: $primary-color;
+  }
+}
+
+#home-quote {
+  background-color: $primary-color;
+  color: $white;
+  -webkit-animation-name: colorChange; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+  animation-name: colorChange;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#video-play {
+  position: relative;
+  min-height: 170px;
+  background: url('../img/confetti.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -100px;
+  text-align: center;
+  color: $white;
+
+  a {
+    color: $white;
+  }
+}
+
+#page-header {
+  height: 45vh;
+  background: linear-gradient(
+      rgba(160, 116, 160, 0.3),
+      rgba(160, 116, 160, 0.3)
+    ),
+    url('../img/image18.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $white;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
+.about-img {
+  margin-top: -90px;
+}
+
+.credit {
+  font-size: 12px;
+}
+
+#faq {
+  .card {
+    border: #444;
+  }
+
+  a {
+    color: $white;
+    text-decoration: none;
+  }
+
+  .card-body,
+  .card-header {
+    background: #333;
+
+    h1 {
+      font-family: $header-font;
+    }
+  }
+}
+
+.bg-2 {
+  background: $primary-color;
+}
+
+#staff {
+  img {
+    margin-top: -50px;
+  }
+
+  .card:hover {
+    background: $primary-color;
+    color: #fff;
+  }
+
+  .fab {
+    color: #fff;
+  }
+}
+
+.radio-style {
+  color: #6c757d;
+}
+
+#main-footer {
+  background: $secondary-color;
+  color: $white;
+}
+
+@media (max-width: 780px) {
+  #servicesButton {
+    width: 100%;
+    display: block;
+  }
+  #homeQuote {
+    order: 6;
+  }
+  #page-header {
+    background: linear-gradient(
+        rgba(160, 116, 160, 0.3),
+        rgba(160, 116, 160, 0.3)
+      ),
+      url('../img/mobile.jpg');
+    background-size: cover;
+  }
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes colorChange {
+  0% {
+    background-color: $primary-color;
+  }
+
+  100% {
+    background-color: $secondary-color;
+  }
+}
+
+/* Standard syntax */
+@keyframes colorChange {
+  0% {
+    background-color: $primary-color;
+  }
+
+  100% {
+    background-color: $secondary-color;
+  }
+}
