@@ -109,7 +109,6 @@ body h4 {
   color: #020122;
 }
 
-
 #background-image {
   position: relative;
   min-height: 170px;
@@ -126,6 +125,18 @@ body h4 {
 }
 #background-image .fa-envelope-open:hover {
   color: #0f7173;
+}
+
+#background-image2 {
+  position: relative;
+  min-height: 170px;
+  background: linear-gradient(rgba(36, 31, 82, 0.35), rgba(36, 31, 82, 0.35)),
+    url('../img/design6.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
 }
 
 #home-quote {
@@ -177,10 +188,7 @@ body h4 {
 
 #page-header {
   height: 45vh;
-  background: linear-gradient(
-      rgba(36, 31, 82, 0.35),
-      rgba(36, 31, 82, 0.35)
-    ),
+  background: linear-gradient(rgba(36, 31, 82, 0.3), rgba(36, 31, 82, 0.3)),
     url('../img/design6.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -248,17 +256,13 @@ body h4 {
   }
 
   #page-header {
-    background: linear-gradient(
-        rgba(160, 116, 160, 0.3),
-        rgba(160, 116, 160, 0.3)
-      ),
+    background: linear-gradient(rgba(36, 31, 82, 0.3), rgba(36, 31, 82, 0.3)),
       url('../img/design2.jpg');
     background-size: cover;
   }
-#designthinking{
-  text-align: center;
-}
-
+  #designthinking {
+    text-align: center;
+  }
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes colorChange {

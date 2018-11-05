@@ -8,6 +8,8 @@
   <link href="https://fonts.googleapis.com/css?family=Assistant|Teko:300" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
     crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/bootstrap.css">
 
 
@@ -35,7 +37,7 @@
           <li class="nav-item active">
             <a href="myprocess.html" class="nav-link">Design Process</a>
           </li>
-         
+
         </ul>
       </div>
     </div>
@@ -45,8 +47,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 m-auto text-center image-header">
-            <h1 class="display-4 title">Design Process</h1>
-         
+          <h1 class="display-3 title">Design Process</h1>
+
         </div>
       </div>
     </div>
@@ -55,50 +57,74 @@
   <!--Process Section-->
 
   <section id="myprocess" class="py-4">
-      <div class="container">
+    <div class="container">
       <div class="row">
         <div id="designthinkinig" class="col-md-6 align-self-center">
           <h1 class="header">Design Thinking</h1>
 
-          <p>Design thinking utilises elements from the designer's toolkit like empathy and experimentation to arrive at innovative solutions.   </p>
-            
-          
+          <p>Design thinking utilises elements from the designer's toolkit like empathy and experimentation to arrive at innovative
+            solutions. </p>
+
+
 
           <div class="row">
-          <div id="design-quote" class="col card mb-4 text-center">
-          <blockquote class="card-blockquote card-body">
-            <p class="text-quote">
-                “Design thinking is a human-centered approach to innovation that draws from the designer's toolkit to integrate the needs of people, the possibilities of technology, and the requirements for business success" </p>
+            <div id="design-quote" class="col card mb-4 text-center">
+              <blockquote class="card-blockquote card-body">
+                <p class="text-quote">
+                  “Design thinking is a human-centered approach to innovation that draws from the designer's toolkit to integrate the needs
+                  of people, the possibilities of technology, and the requirements for business success" </p>
                 <footer class="blockquote-footer text-white">
-                    <small>Tim Brown,
-                      <cite title="Source Title">CEO of IDEO</cite>
-                    </small>
-                  </footer>
-                </blockquote>
+                  <small>Tim Brown,
+                    <cite title="Source Title">CEO of IDEO</cite>
+                  </small>
+                </footer>
+              </blockquote>
+            </div>
           </div>
-        </div>
-        <p>By using design thinking, you make decisions based on what future customers really want instead of relying only on historical data or making risky bets based on instinct instead of evidence.</p>
-         
+          <p>By using design thinking, you make decisions based on what future customers really want instead of relying only
+            on historical data or making risky bets based on instinct instead of evidence.</p>
+
         </div>
 
         <div class="col-md-6">
           <img src="img/designprocess.PNG" alt="" class="img-fluid py-4">
         </div>
       </div>
-
-      <div class="row">
-          <div class="col-md-12">
-                    
-        
-            <img src="img/journeyprocess.PNG" alt="" class="img-fluid py-4">
-          </div>
-        </div>
-
     </div>
-    
   </section>
 
-  
+  <!--Video Play (video courtesy of Wedding Planning Service Ireland)-->
+
+  <section id="video-play">
+    <div class="dark-overlay">
+      <div class="row text-center">
+        <div class="col">
+          <div class="container p-5">
+            <a href="#" class="video" data-video="https://www.youtube.com/watch?v=U-hzefHdAMk" data-toggle="modal" data-target="#videoModal">
+              <i class="fas fa-play fa-2x"></i>
+            </a>
+            <h1 class="header2 py-3">Tim Brown - Design Thinking</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="myprocess2" class="py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+
+          <img src="img/journeyprocess.PNG" alt="" class="img-fluid py-4">
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
 
   <!--Footer-->
   <footer id="main-footer" class="text-center p-4">
@@ -106,11 +132,26 @@
       <div class="row">
         <div class="col">
           <p>Copyright &copy;
-            <span id="year"> </span>Gary Fagan</p>
+            <span id="year"> </span> Gary Fagan</p>
         </div>
       </div>
     </div>
   </footer>
+
+  <!--Video Modal-->
+
+  <div class="modal fade" id="videoModal">
+    <div class="modal-dialogue">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+          <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
@@ -118,20 +159,38 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 
   <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
 
-    //testimonial slider
-
-    $('.slider').slick({
-      infinite: true,
-      slideToShow: 1,
-      slideToScroll: 1
+    //configure slider
+    $('carousel').carousel({
+      interval: 7000,
+      pause: 'hover'
     })
 
+    //lighbox Init
+
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+
+    // Video Play (from stackoverflow)
+    $(function () {
+      // Auto play modal video
+      $(".video").click(function () {
+        var theModal = $(this).data("target"),
+          videoSRC = $(this).attr("data-video"),
+          videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+        $(theModal + ' iframe').attr('src', videoSRCauto);
+        $(theModal + ' button.close').click(function () {
+          $(theModal + ' iframe').attr('src', videoSRC);
+        });
+      });
+    });
 
   </script>
 </body>
