@@ -53,7 +53,7 @@ body h4 {
   padding-right: 1rem !important;
 }
 .navbar .nav-item.active {
-  border-left: #444 3px solid;
+  border-left: #020122 3px solid;
 }
 .navbar .navbar-brand {
   font-family: 'Teko', sans-serif;
@@ -109,6 +109,7 @@ body h4 {
   color: #020122;
 }
 
+
 #background-image {
   position: relative;
   min-height: 170px;
@@ -128,6 +129,18 @@ body h4 {
 }
 
 #home-quote {
+  background-color: #020122;
+  color: #fff;
+  -webkit-animation-name: colorChange;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 7s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: colorChange;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+#design-quote {
   background-color: #020122;
   color: #fff;
   -webkit-animation-name: colorChange;
@@ -165,10 +178,10 @@ body h4 {
 #page-header {
   height: 45vh;
   background: linear-gradient(
-      rgba(160, 116, 160, 0.3),
-      rgba(160, 116, 160, 0.3)
+      rgba(36, 31, 82, 0.35),
+      rgba(36, 31, 82, 0.35)
     ),
-    url('../img/image18.jpg');
+    url('../img/design6.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -239,9 +252,13 @@ body h4 {
         rgba(160, 116, 160, 0.3),
         rgba(160, 116, 160, 0.3)
       ),
-      url('../img/mobile.jpg');
+      url('../img/design2.jpg');
     background-size: cover;
   }
+#designthinking{
+  text-align: center;
+}
+
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes colorChange {
