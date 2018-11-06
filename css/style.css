@@ -127,6 +127,13 @@ body h4 {
   color: #0f7173;
 }
 
+#background-image .fa-file-pdf {
+  color: #fff;
+}
+#background-image .fa-file-pdf:hover {
+  color: #0f7173;
+}
+
 #background-image2 {
   position: relative;
   min-height: 170px;
@@ -186,6 +193,13 @@ body h4 {
   color: #fff;
 }
 
+#video-play .fa-play {
+  color: #fff;
+}
+#video-play .fa-play:hover {
+  color: #0f7173;
+}
+
 #page-header {
   height: 45vh;
   background: linear-gradient(rgba(36, 31, 82, 0.3), rgba(36, 31, 82, 0.3)),
@@ -225,14 +239,14 @@ body h4 {
   background: #020122;
 }
 
-#staff img {
+#work img {
   margin-top: -50px;
 }
-#staff .card:hover {
-  background: #020122;
+#work .card:hover {
+  background: #0f7173;
   color: #fff;
 }
-#staff .fab {
+#work .fab {
   color: #fff;
 }
 
