@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 .text {
   font-family: 'Assistant', sans-serif;
   color: #434a54;
@@ -170,6 +174,8 @@ body h4 {
   animation-iteration-count: infinite;
 }
 
+
+
 .dark-overlay {
   position: absolute;
   top: 0;
@@ -219,21 +225,14 @@ body h4 {
   font-size: 12px;
 }
 
-#faq .card {
-  border: #444;
+#circleProcess{
+  text-align: right;
 }
-#faq a {
-  color: #fff;
-  text-decoration: none;
+
+#journeyIMG{
+  width: 80%;
 }
-#faq .card-body,
-#faq .card-header {
-  background: #333;
-}
-#faq .card-body h1,
-#faq .card-header h1 {
-  font-family: 'Italiana', serif;
-}
+
 
 .bg-2 {
   background: #020122;
@@ -246,7 +245,25 @@ body h4 {
   background: #0f7173;
   color: #fff;
 }
-#work .fab {
+
+
+#card-link:link {
+  text-decoration: none; 
+ 
+  }
+
+#card-link:hover {
+  text-decoration: none; 
+  color: #fff!important;  
+  
+  }
+
+#card-link {
+  color: #434a54; 
+}
+
+
+#work .fas {
   color: #fff;
 }
 
@@ -277,7 +294,20 @@ body h4 {
   #designthinking {
     text-align: center;
   }
+
 }
+
+@media (max-width: 992px){
+  #circleProcess{
+    text-align: center;
+  }
+
+  #journeyIMG{
+    width: 100%;
+  }
+
+}
+
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes colorChange {
   0% {
