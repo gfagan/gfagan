@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -28,7 +28,7 @@
 
 .header2 {
   font-family: 'Assistant', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   color: #fff;
 }
 
@@ -174,8 +174,6 @@ body h4 {
   animation-iteration-count: infinite;
 }
 
-
-
 .dark-overlay {
   position: absolute;
   top: 0;
@@ -225,14 +223,13 @@ body h4 {
   font-size: 12px;
 }
 
-#circleProcess{
+#circleProcess {
   text-align: right;
 }
 
-#journeyIMG{
+#journeyIMG {
   width: 80%;
 }
-
 
 .bg-2 {
   background: #020122;
@@ -246,22 +243,18 @@ body h4 {
   color: #fff;
 }
 
-
 #card-link:link {
-  text-decoration: none; 
- 
-  }
-
-#card-link:hover {
-  text-decoration: none; 
-  color: #fff!important;  
-  
-  }
-
-#card-link {
-  color: #434a54; 
+  text-decoration: none;
 }
 
+#card-link:hover {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+#card-link {
+  color: #434a54;
+}
 
 #work .fas {
   color: #fff;
@@ -294,18 +287,16 @@ body h4 {
   #designthinking {
     text-align: center;
   }
-
 }
 
-@media (max-width: 992px){
-  #circleProcess{
+@media (max-width: 992px) {
+  #circleProcess {
     text-align: center;
   }
 
-  #journeyIMG{
+  #journeyIMG {
     width: 100%;
   }
-
 }
 
 /* Safari 4.0 - 8.0 */
