@@ -89,7 +89,7 @@ body h4 {
 }
 
 .carousel-item {
-  height: 45vh;
+  height: 55vh;
 }
 
 .carousel-image-1 {
@@ -217,7 +217,7 @@ body h4 {
 }
 
 .about-img {
-  margin-top: -90px;
+  margin-top: -25%;
 }
 
 .credit {
