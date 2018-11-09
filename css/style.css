@@ -218,6 +218,7 @@ body h4 {
 
 .about-img {
   margin-top: -25%;
+  max-width: 90%;
 }
 
 .credit {
@@ -288,6 +289,11 @@ body h4 {
   #designthinking {
     text-align: center;
   }
+
+  .about-img {
+    margin-top: -25%;
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 992px) {
@@ -297,6 +303,11 @@ body h4 {
 
   #journeyIMG {
     width: 100%;
+  }
+
+  .about-img {
+    margin-top: -25%;
+    max-width: 100%;
   }
 }
 
