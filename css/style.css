@@ -219,7 +219,7 @@ body h4 {
 #appreview-header {
   height: 50vh;
   background: linear-gradient(rgba(36, 31, 82, 0.4), rgba(36, 31, 82, 0.4)),
-    url('../img/appreview.jpeg');
+    url('../img/appreview.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
