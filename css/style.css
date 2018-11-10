@@ -216,6 +216,17 @@ body h4 {
   padding-top: 50px;
 }
 
+#appreview-header {
+  height: 45vh;
+  background: linear-gradient(rgba(36, 31, 82, 0.3), rgba(36, 31, 82, 0.3)),
+    url('../img/design6.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
 .about-img {
   margin-top: -25%;
   max-width: 90%;
