@@ -206,9 +206,20 @@ body h4 {
 }
 
 #page-header {
-  height: 45vh;
+  height: 50vh;
   background: linear-gradient(rgba(36, 31, 82, 0.3), rgba(36, 31, 82, 0.3)),
     url('../img/design6.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
+#appreview-header {
+  height: 50vh;
+  background: linear-gradient(rgba(36, 31, 82, 0.4), rgba(36, 31, 82, 0.4)),
+    url('../img/appreview.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
