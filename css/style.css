@@ -282,12 +282,12 @@ body h4 {
   color: #fff;
 }
 
-#portfolio_content {
+#portfolio-container {
   max-width: 60vw;
   line-height: 1.6;
 }
 
-#portfolio_note {
+#portfolio-note {
   font-size: 14px;
   font-style: italic;
 }
@@ -301,7 +301,7 @@ body h4 {
     width: 100%;
     display: block;
   }
-  #portfolio_content {
+  #portfolio-container {
     max-width: 90vw;
     line-height: 1.6;
   }
@@ -342,7 +342,7 @@ body h4 {
     margin-top: -25%;
     max-width: 100%;
   }
-  #portfolio_content {
+  #portfolio-container {
     max-width: 80vw;
     line-height: 1.6;
   }
