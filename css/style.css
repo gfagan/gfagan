@@ -278,8 +278,10 @@ body h4 {
 }
 
 #main-footer {
-  background: #0f7173;
+  background: #020122;
   color: #fff;
+  font-size: 16px;
+  
 }
 
 #portfolio-container {
