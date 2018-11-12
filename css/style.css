@@ -227,6 +227,17 @@ body h4 {
   padding-top: 50px;
 }
 
+#scent-header {
+  height: 50vh;
+  background: linear-gradient(rgba(36, 31, 82, 0.4), rgba(36, 31, 82, 0.4)),
+    url('../img/scentbanner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
 .about-img {
   margin-top: -25%;
   max-width: 90%;
@@ -281,7 +292,6 @@ body h4 {
   background: #020122;
   color: #fff;
   font-size: 16px;
-  
 }
 
 #portfolio-container {
@@ -298,6 +308,10 @@ body h4 {
   width: 70%;
 }
 
+#scent1 {
+  max-width: 400px;
+}
+
 @media (max-width: 780px) {
   #servicesButton {
     width: 100%;
@@ -306,6 +320,10 @@ body h4 {
   #portfolio-container {
     max-width: 90vw;
     line-height: 1.6;
+  }
+
+  #scent1 {
+    max-width: 280px;
   }
 
   #homeQuote {
