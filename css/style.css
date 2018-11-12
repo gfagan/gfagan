@@ -282,10 +282,28 @@ body h4 {
   color: #fff;
 }
 
+#portfolio_content {
+  max-width: 60vw;
+  line-height: 1.6;
+}
+
+#portfolio_note {
+  font-size: 14px;
+  font-style: italic;
+}
+
+#UI_Evaluation {
+  width: 70%;
+}
+
 @media (max-width: 780px) {
   #servicesButton {
     width: 100%;
     display: block;
+  }
+  #portfolio_content {
+    max-width: 90vw;
+    line-height: 1.6;
   }
 
   #homeQuote {
@@ -316,9 +334,17 @@ body h4 {
     width: 100%;
   }
 
+  #UI_Evaluation {
+    width: 100%;
+  }
+
   .about-img {
     margin-top: -25%;
     max-width: 100%;
+  }
+  #portfolio_content {
+    max-width: 80vw;
+    line-height: 1.6;
   }
 }
 
