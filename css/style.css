@@ -206,7 +206,7 @@ body h4 {
 }
 
 #page-header {
-  height: 50vh;
+  height: 45vh;
   background: linear-gradient(rgba(36, 31, 82, 0.3), rgba(36, 31, 82, 0.3)),
     url('../img/design6.jpg');
   background-repeat: no-repeat;
