@@ -241,7 +241,7 @@ body h4 {
 #fieldnotes-header {
   height: 50vh;
   background: linear-gradient(rgba(36, 31, 82, 0.4), rgba(36, 31, 82, 0.4)),
-    url('../img/fieldnotes1.jpg');
+    url('../img/fieldnotes-banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -323,7 +323,7 @@ body h4 {
   max-width: 400px;
 }
 
-#fieldnotes-small {
+#FN-image-small {
   max-width: 300px;
 }
 
