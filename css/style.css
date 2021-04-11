@@ -3,52 +3,52 @@
 }
 
 .text {
-  font-family: 'Assistant', sans-serif;
+  font-family: "Assistant", sans-serif;
   color: #434a54;
   font-size: 18px;
 }
 
 .font2 {
-  font-family: 'Assistant', sans-serif;
+  font-family: "Assistant", sans-serif;
 }
 
 .text-quote {
-  font-family: 'Assistant', sans-serif;
+  font-family: "Assistant", sans-serif;
 }
 
 .title {
-  font-family: 'Teko', sans-serif;
+  font-family: "Teko", sans-serif;
 }
 
 .header {
-  font-family: 'Assistant', sans-serif;
+  font-family: "Assistant", sans-serif;
   font-size: 1.4rem;
   color: #020122;
 }
 
 .header2 {
-  font-family: 'Assistant', sans-serif;
+  font-family: "Assistant", sans-serif;
   font-size: 1.4rem;
   color: #fff;
 }
 
 body {
   overflow-x: hidden;
-  font-family: 'Assistant', sans-serif;
+  font-family: "Assistant", sans-serif;
   color: #434a54;
   font-size: 18px;
 }
 body h1 {
-  font-family: 'Assistant', sans-serif;
+  font-family: "Assistant", sans-serif;
 }
 body h2 {
-  font-family: 'Assistant', sans-serif;
+  font-family: "Assistant", sans-serif;
 }
 body h3 {
-  font-family: 'Assistant', sans-serif;
+  font-family: "Assistant", sans-serif;
 }
 body h4 {
-  font-family: 'Assistant', sans-serif;
+  font-family: "Assistant", sans-serif;
 }
 
 .navbar .nav-link {
@@ -61,30 +61,30 @@ body h4 {
   border-left: #020122 3px solid;
 }
 .navbar .navbar-brand {
-  font-family: 'Teko', sans-serif;
+  font-family: "Teko", sans-serif;
   font-size: 2rem;
   color: #020122;
 }
 
 .image-header {
   color: #020122;
-  font-family: 'Teko', sans-serif;
+  font-family: "Teko", sans-serif;
 }
 
 .image-header2 {
   color: #fff;
-  font-family: 'Teko', sans-serif;
+  font-family: "Teko", sans-serif;
 }
 
 .image-text {
   color: #020122;
-  font-family: 'Teko', sans-serif;
+  font-family: "Teko", sans-serif;
   font-size: 22px;
 }
 
 .image-text2 {
   color: #fff;
-  font-family: 'Teko', sans-serif;
+  font-family: "Teko", sans-serif;
   font-size: 22px;
 }
 
@@ -94,19 +94,19 @@ body h4 {
 
 .carousel-image-1 {
   background: linear-gradient(rgba(36, 31, 82, 0.3), rgba(36, 31, 82, 0.3)),
-    url('../img/design1.jpg');
+    url("../img/design1.jpg");
   background-size: cover;
 }
 
 .carousel-image-2 {
   background: linear-gradient(rgba(36, 31, 82, 0.3), rgba(36, 31, 82, 0.3)),
-    url('../img/design2.jpg');
+    url("../img/design2.jpg");
   background-size: cover;
 }
 
 .carousel-image-3 {
   background: linear-gradient(rgba(36, 31, 82, 0.3), rgba(36, 31, 82, 0.3)),
-    url('../img/design3.jpg');
+    url("../img/design3.jpg");
   background-size: cover;
 }
 
@@ -118,7 +118,7 @@ body h4 {
   position: relative;
   min-height: 170px;
   background: linear-gradient(rgba(36, 31, 82, 0.35), rgba(36, 31, 82, 0.35)),
-    url('../img/design5.jpg');
+    url("../img/design5.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -143,7 +143,7 @@ body h4 {
   position: relative;
   min-height: 170px;
   background: linear-gradient(rgba(36, 31, 82, 0.35), rgba(36, 31, 82, 0.35)),
-    url('../img/design6.jpg');
+    url("../img/design6.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -187,7 +187,7 @@ body h4 {
 #video-play {
   position: relative;
   min-height: 170px;
-  background: url('../img/design6.jpg');
+  background: url("../img/design6.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: 0 -100px;
@@ -208,7 +208,7 @@ body h4 {
 #page-header {
   height: 45vh;
   background: linear-gradient(rgba(36, 31, 82, 0.3), rgba(36, 31, 82, 0.3)),
-    url('../img/design6.jpg');
+    url("../img/design6.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -219,7 +219,7 @@ body h4 {
 #portfolio-header {
   height: 45vh;
   background: linear-gradient(rgba(36, 31, 82, 0.3), rgba(36, 31, 82, 0.3)),
-    url('../img/portfoliobanner.jpg');
+    url("../img/portfoliobanner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -230,7 +230,7 @@ body h4 {
 #appreview-header {
   height: 50vh;
   background: linear-gradient(rgba(36, 31, 82, 0.4), rgba(36, 31, 82, 0.4)),
-    url('../img/appreview.jpg');
+    url("../img/appreview.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -241,7 +241,7 @@ body h4 {
 #scent-header {
   height: 50vh;
   background: linear-gradient(rgba(36, 31, 82, 0.4), rgba(36, 31, 82, 0.4)),
-    url('../img/scentbanner.png');
+    url("../img/scentbanner.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -252,7 +252,7 @@ body h4 {
 #fieldnotes-header {
   height: 50vh;
   background: linear-gradient(rgba(36, 31, 82, 0.4), rgba(36, 31, 82, 0.4)),
-    url('../img/fieldnotes-banner.jpg');
+    url("../img/fieldnotes-banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -374,7 +374,7 @@ body h4 {
 
   #page-header {
     background: linear-gradient(rgba(36, 31, 82, 0.3), rgba(36, 31, 82, 0.3)),
-      url('../img/design2.jpg');
+      url("../img/design2.jpg");
     background-size: cover;
   }
   #designthinking {
